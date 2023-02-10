@@ -105,7 +105,6 @@ export default {
     },
   methods: {
     saveAdoptionRequest() {
-      console.log(this.$route.params.petId);
       AdoptionService.addAdoptionRequest(
         this.$route.params.petId,
         this.adopter

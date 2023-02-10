@@ -112,7 +112,6 @@ export default {
   },
   methods: {
     saveVolunteer() {
-      console.log(this.volunteer);
       VolunteerService.addVolunteer(this.volunteer).then((response) => {
         if (response.status === 201) {
           alert("Thank you for applying to be a volunteer!");

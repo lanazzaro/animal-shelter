@@ -17,7 +17,6 @@ export default{
     },
 
     updatePet(id, pet){
-        console.log(id)
         return axios.put(`/pets/${id}/edit`, pet)
     },
 
