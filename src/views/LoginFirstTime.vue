@@ -68,7 +68,7 @@ export default {
             if (response.status == 200) {
               alert("Password was successfully changed.");
               this.$router.push({
-                path: "/",
+                path: "/animal-shelter/",
               });
             }
           })

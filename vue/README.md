@@ -163,7 +163,7 @@ login() {
       if (response.status == 200) {
         this.$store.commit("SET_AUTH_TOKEN", response.data.token);
         this.$store.commit("SET_USER", response.data.user);
-        this.$router.push("/");
+        this.$router.push("/animal-shelter/");
       }
     })
 }
@@ -198,7 +198,7 @@ There's a logout link in `App.vue` that forwards the user to the `/logout` route
 export default {
   created() {
     this.$store.commit("LOGOUT");
-    this.$router.push("/login");
+    this.$router.push("/animal-shelter/login");
   }
 };
 </script>
@@ -232,7 +232,7 @@ register() {
     .then(response => {
       if (response.status == 201) {
         this.$router.push({
-          path: "/login",
+          path: "/animal-shelter/login",
           query: { registration: "success" }
         });
       }

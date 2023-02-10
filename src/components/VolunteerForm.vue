@@ -115,7 +115,7 @@ export default {
       VolunteerService.addVolunteer(this.volunteer).then((response) => {
         if (response.status === 201) {
           alert("Thank you for applying to be a volunteer!");
-          this.$router.push("/volunteer/apply");
+          this.$router.push("/animal-shelter/volunteer/apply");
         }
       });
       this.resetForm();

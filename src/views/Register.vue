@@ -68,7 +68,7 @@ export default {
           .then((response) => {
             if (response.status == 201) {
               this.$router.push({
-                path: '/login',
+                path: '/animal-shelter/login',
                 query: { registration: 'success' },
               });
             }

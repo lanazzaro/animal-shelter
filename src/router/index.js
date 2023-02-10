@@ -33,7 +33,7 @@ const router = new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/animal-shelter/',
       name: 'home',
       component: Home,
       meta: {
@@ -41,7 +41,7 @@ const router = new Router({
       }
     },
     {
-      path: "/login",
+      path: "/animal-shelter/login",
       name: "login",
       component: Login,
       meta: {
@@ -49,7 +49,7 @@ const router = new Router({
       }
     },
     {
-      path: "/logout",
+      path: "/animal-shelter/logout",
       name: "logout",
       component: Logout,
       meta: {
@@ -57,7 +57,7 @@ const router = new Router({
       }
     },
     {
-      path: "/register",
+      path: "/animal-shelter/register",
       name: "register",
       component: Register,
       meta: {
@@ -65,7 +65,7 @@ const router = new Router({
       }
     },
     {
-      path: "/pets",
+      path: "/animal-shelter/pets",
       name: "pets",
       component: AdoptablePets,
       meta: {
@@ -73,7 +73,7 @@ const router = new Router({
       }
     },
     {
-      path: "/volunteer/apply",
+      path: "/animal-shelter/volunteer/apply",
       name: "volunteer",
       component: NewVolunteer,
       meta: {
@@ -81,25 +81,25 @@ const router = new Router({
       }
     },
     {
-      path: '/pets/:petId',
+      path: '/animal-shelter/pets/:petId',
       name: "petDetailsView",
       component: PetDetailsView,
       props: true
     },
     {
-      path: '/pets/add',
+      path: '/animal-shelter/pets/add',
       name: "newPetForm",
       component: AddNewPet,
       props: true
     },
     {
-      path: '/pets/:petId/edit',
+      path: '/animal-shelter/pets/:petId/edit',
       name: "updatePet",
       component: UpdatePetView,
       props: true
     },
     {
-      path: '/volunteer/applications',
+      path: '/animal-shelter/volunteer/applications',
       name: "volunteerApplications",
       component: VolunteerApps,
       meta: {
@@ -107,7 +107,7 @@ const router = new Router({
       }
     },
     {
-      path: '/volunteer/directory',
+      path: '/animal-shelter/volunteer/directory',
       name: "volunteerDirectory",
       component: VolunteerDirectoryView,
       meta: {
@@ -115,17 +115,17 @@ const router = new Router({
       }
     },
     {
-      path: '/login/change_password',
+      path: '/animal-shelter/login/change-password',
       name: "loginFirstTime",
       component: LoginFirstTime,
     },
     {
-      path: '/pets/:petId/adopt',
+      path: '/animal-shelter/pets/:petId/adopt',
       name: "adoptionForm",
       component: AdoptionFormView,
     },
     {
-      path: '/adoption_applications',
+      path: '/animal-shelter/adoption-applications',
       name: "adoptionApplications",
       component: AdoptionApps,
       meta: {
@@ -133,19 +133,19 @@ const router = new Router({
       }
     },
     {
-      path: '/directory/:applicationId',
+      path: '/animal-shelter/directory/:applicationId',
       name: "PromoteVolunteer",
       component: PromoteVolunteer,
       props: true
     },
     {
-      path: '/images/add/:petId',
+      path: '/animal-shelter/images/add/:petId',
       name: "AddPhotosView",
       component: AddPhotosView,
       props: true
     },
     {
-      path: '/about-us',
+      path: '/animal-shelter/about-us',
       name: "AboutUs",
       component: AboutUs,
       meta: {

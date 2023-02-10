@@ -40,7 +40,7 @@ export default {
         ).then((response) => {
           if (response.status === 200) {
             alert("Volunteer Role has been updated");
-            this.$router.push("/volunteer/directory");
+            this.$router.push("/animal-shelter/volunteer/directory");
             //  this.volunteerList = this.volunteerList.filter((eachVolunteer) => {
             //    return eachVolunteer.status === "Pending";
             // });
@@ -49,7 +49,7 @@ export default {
       }
     },
     cancel() {
-      this.$router.push("/volunteer/directory");
+      this.$router.push("/animal-shelter/volunteer/directory");
     },
   },
 };

@@ -62,9 +62,9 @@ export default {
 
             //check if user logged in before
             if (firstTime == true) {
-              this.$router.push("/login/change_password");
+              this.$router.push("/animal-shelter/login/change_password");
             } else {
-              this.$router.push("/");
+              this.$router.push("/animal-shelter/");
             }
           }
         })
