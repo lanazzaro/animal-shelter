@@ -36,9 +36,9 @@
           <router-link v-bind:to="{ name: 'AboutUs' }">About Us</router-link>
         </li>
         <li v-if="$store.state.token == ''">
-          <router-link to="/login">Log In</router-link>
+          <router-link to="/animal-shelter/login">Log In</router-link>
         </li>
-        <li v-else><router-link to="/logout">Logout</router-link></li>
+        <li v-else><router-link to="/animal-shelter/logout">Logout</router-link></li>
       </ul>
     </div>
   </nav>
