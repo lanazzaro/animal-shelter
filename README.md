@@ -36,7 +36,7 @@ router.beforeEach((to, from, next) => {
 ​
   // If it does and they are not logged in, send the user to "/login"
   if (requiresAuth && store.state.token === '') {
-    next("/login");
+    next("/animal-shelter/login");
   } else {
     // Else let them go to their next destination
     next();
