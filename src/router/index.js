@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
-import Register from '../views/Register.vue'
+// import Register from '../views/Register.vue'
 import store from '../store/index'
 import AdoptablePets from '../views/AdoptablePets.vue'
 import NewVolunteer from '../views/NewVolunteer.vue'
@@ -56,14 +56,14 @@ const router = new Router({
         requiresAuth: false
       }
     },
-    {
-      path: "/animal-shelter/register",
-      name: "register",
-      component: Register,
-      meta: {
-        requiresAuth: false
-      }
-    },
+    // {
+    //   path: "/animal-shelter/register",
+    //   name: "register",
+    //   component: Register,
+    //   meta: {
+    //     requiresAuth: false
+    //   }
+    // },
     {
       path: "/animal-shelter/pets",
       name: "pets",

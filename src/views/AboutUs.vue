@@ -28,7 +28,7 @@
             Giovanni Marino:
           </a>
           <p>
-            Together with Collin he created the inital classes and models needed
+            Together with Collin he created the initial classes and models needed
             in the backend for Pets, Volunteer, and User. The two also made the
             backend functionalities for 1st time login, volunteer directory,
             volunteer application, and connection to the database. A CSS wizard,
@@ -41,7 +41,7 @@
         <a href="https://www.linkedin.com/in/giovamarino/">
           <img
             class="devImg"
-            src="../devs/giovanni.jpg"
+            src="../assets/giovanni.jpg"
             alt="Giovanni Marino"
           />
         </a>
@@ -69,7 +69,7 @@
           </p>
         </div>
         <a href="https://www.linkedin.com/in/laura-nazzaro/">
-          <img class="devImg" src="../devs/laura.jpg" alt="Laura Nazzaro" />
+          <img class="devImg" src="../assets/laura.jpg" alt="Laura Nazzaro" />
         </a>
       </div>
       <div class="developer">
@@ -83,7 +83,7 @@
             Collin O'Conner:
           </a>
           <p>
-            Together with Giovanni he created the inital classes and models
+            Together with Giovanni he created the initial classes and models
             needed in the backend for Pets, Volunteer, and User. The two also
             made the backend functionalities for 1st time login, volunteer
             directory, volunteer application, and connection to the database.
@@ -96,7 +96,7 @@
           </p>
         </div>
         <a href="https://www.linkedin.com/in/collinoconner/">
-          <img class="devImg" src="../devs/collin.jpg" alt="Collin O'Conner" />
+          <img class="devImg" src="../assets/collin.jpg" alt="Collin O'Conner" />
         </a>
       </div>
       <div class="developer">
@@ -120,7 +120,7 @@
           </p>
         </div>
         <a href="https://www.linkedin.com/in/stacymthompson243/">
-          <img class="devImg" src="../devs/stacy.jpg" alt="Stacy Thompson" />
+          <img class="devImg" src="../assets/stacy.jpg" alt="Stacy Thompson" />
         </a>
       </div>
     </div>
